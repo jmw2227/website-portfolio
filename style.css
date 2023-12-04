@@ -1,0 +1,85 @@
+html{
+  background-color: lightgrey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.bg-img {
+  /* The image used */
+  background-image: url("person-smiling.jpeg");
+
+  min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(8, 107, 228);
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2d0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a.split {
+  float: right;
+  background-color: lightblue;
+  color: white
+}
+.topnav a:hover {
+  background-color: rgb(135, 168, 250);
+  color: whitesmoke
+}
+.txt-about-me{
+  text-indent:50px;
+  padding: 0%;
+}
+.img.major-app {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.image-container {
+  position: relative;
+  border-color: rgb(240, 240, 255);
+  box-sizing: border-box;
+}
+
+.text-block-2 {
+  position: fixed;
+  bottom: 18%;
+  right: 74%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(135 168 250 / 69%);
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 15px;
