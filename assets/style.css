@@ -4,34 +4,33 @@ html{
 
 }
 .bg-img {
-  /* The image used */
-  background-image: url("person-smiling.jpeg");
+  background-image: url(images/person-smiling.jpeg);
 
   min-height: 500px;
 
-  /* Center and scale the image nicely */
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  /* Needed to position the navbar */
+ 
   position: relative;
 }
 
-/* Position the navbar container inside the image */
+
 .container {
   position: absolute;
   margin: 20px;
   width: auto;
 }
 
-/* The navbar */
+
 .topnav {
   overflow: hidden;
   background-color: rgb(8, 107, 228);
 }
 
-/* Navbar links */
+
 .topnav a {
   float: left;
   color: #f2f2f2d0;
@@ -56,6 +55,10 @@ html{
 }
 
 .universal-container{
+  margin-right: 50px;
+  padding: 60px;
+  border-width: 50px;
+  border-right: purple
 
 }
 
@@ -64,9 +67,9 @@ html{
 }
 
 .left-side{
-  margin-right: 30px;
-  padding: 20px;
-  border-width: 5px;
+  margin-right: 50px;
+  padding: 60px;
+  border-width: 50px;
   border-right: purple;
   
 }
@@ -74,22 +77,18 @@ html{
 .img.major-app {
   position: relative;
   font-family: Arial;
+  height: 50px;
+  width: 60px;
+  padding: 35px;
 }
 
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 .image-container {
   position: relative;
   border-color: rgb(240, 240, 255);
   box-sizing: border-box;
 }
+
+
 
  .overlay {
   bottom: 18%;
@@ -97,20 +96,15 @@ html{
   transform: translate(-50%, -50%);
   background-color: rgb(135 168 250 / 69%);
   color: #f2f2f2;
-  padding: 10px;
+  padding: 15px;
   font-size: 15px; 
+  display: inline-flex;
+
 
 
 }
 
-.text-block-2 {
-  position: fixed;
-  bottom: 18%;
-  right: 74%;
-  transform: translate(-50%, -50%);
-  background-color: rgb(135 168 250 / 69%);
-  color: #f2f2f2;
-  padding: 10px;
-  font-size: 15px; }
+
+
 
 
